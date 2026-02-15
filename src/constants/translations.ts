@@ -4,6 +4,7 @@ export const translations = {
             home: 'Inicio',
             howItWorks: 'Cómo Funciona',
             services: 'Servicios',
+            reviews: 'Reseñas',
             limits: 'Qué Hacemos',
             faq: 'Preguntas',
             contact: 'Contacto',
@@ -57,6 +58,17 @@ export const translations = {
                 'Ingenierías (parte técnica)',
             ]
         },
+        reviews: {
+            title: 'Lo que dicen nuestros estudiantes',
+            items: [
+                { name: 'Miguel A.', degree: 'ADE', text: 'Me salvaron con el TFG. Llevaba meses atascado con el marco teórico y en una semana me lo dejaron perfecto. Muy recomendables.' },
+                { name: 'Laura S.', degree: 'Educación', text: 'Tenía que entregar 3 prácticas a la vez y no me daba la vida. El resultado fue genial y aprobaron todas con buena nota.' },
+                { name: 'Pablo R.', degree: 'Historia', text: 'Redacción impecable y muy buenas referencias bibliográficas. Se nota que son profesionales de humanidades.' },
+                { name: 'Ana M.', degree: 'Marketing', text: 'El plan de marketing que me hicieron fue súper completo. Me explicaron todo para la defensa y saqué un 9.' },
+                { name: 'Carlos D.', degree: 'Sociología', text: 'Muy serios con los plazos. Me entregaron el trabajo dos días antes de lo acordado para que pudiera revisarlo con calma.' },
+                { name: 'Elena G.', degree: 'Enfermería', text: 'Necesitaba ayuda con una revisión bibliográfica urgente y cumplieron perfectamente. Trato muy cercano y profesional.' },
+            ]
+        },
         faq: {
             title: 'Preguntas Frecuentes',
             items: [
@@ -81,6 +93,7 @@ export const translations = {
             home: 'Home',
             howItWorks: 'How it Works',
             services: 'Services',
+            reviews: 'Reviews',
             limits: 'Scope',
             faq: 'FAQ',
             contact: 'Contact',
@@ -132,6 +145,17 @@ export const translations = {
                 'Technical Programming / Software Dev',
                 'Online exams or impersonation',
                 'Engineering (technical parts)',
+            ]
+        },
+        reviews: {
+            title: 'What our students say',
+            items: [
+                { name: 'Miguel A.', degree: 'Business', text: 'They saved me with my Thesis. I was stuck for months with the theoretical framework and they fixed it in a week. Highly recommended.' },
+                { name: 'Laura S.', degree: 'Education', text: 'I had to submit 3 assignments at once and I was overwhelmed. The result was great and I passed all of them with good grades.' },
+                { name: 'Pablo R.', degree: 'History', text: 'Impeccable writing and very good bibliographic references. You can tell they are humanities professionals.' },
+                { name: 'Ana M.', degree: 'Marketing', text: 'The marketing plan they made for me was super complete. They explained everything for the defense and I got a 9.' },
+                { name: 'Carlos D.', degree: 'Sociology', text: 'Very serious with deadlines. They delivered the work two days before agreed so I could review it calmly.' },
+                { name: 'Elena G.', degree: 'Nursing', text: 'I needed help with an urgent literature review and they delivered perfectly. Very close and professional treatment.' },
             ]
         },
         faq: {

@@ -6,6 +6,7 @@ import Footer from './components/layout/Footer';
 import Hero from './components/home/Hero';
 import HowItWorks from './components/home/HowItWorks';
 import Services from './components/home/Services';
+import Reviews from './components/home/Reviews';
 import Limits from './components/home/Limits';
 import Faq from './components/home/Faq';
 import SEO from './components/common/SEO';
@@ -20,6 +21,7 @@ function App() {
           <Hero />
           <HowItWorks />
           <Services />
+          <Reviews />
           <Limits />
           <Faq />
         </main>
