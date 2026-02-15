@@ -28,8 +28,8 @@ const Faq: React.FC = () => {
                             key={index}
                             question={item.q}
                             answer={item.a}
-                            questionClassName="text-slate-100 hover:text-primary-light"
-                            answerClassName="text-slate-400"
+                            questionClassName="text-slate-100 hover:text-primary-light font-semibold"
+                            answerClassName="text-slate-300 bg-slate-800/50 p-4 rounded-lg border-l-2 border-primary mt-2"
                         />
                     ))}
                 </div>
