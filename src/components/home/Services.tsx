@@ -14,7 +14,7 @@ const Services: React.FC = () => {
     ];
 
     return (
-        <section id="services" className="py-20 bg-gradient-to-br from-primary via-blue-700 to-accent">
+        <section id="services" className="py-20 bg-gradient-to-br from-primary to-accent">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
