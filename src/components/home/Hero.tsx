@@ -1,4 +1,4 @@
-import { ArrowRight } from 'lucide-react';
+
 import { useLanguage } from '../../context/LanguageContext';
 
 const Hero: React.FC = () => {

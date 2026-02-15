@@ -7,7 +7,7 @@ export const translations = {
             limits: 'Qué Hacemos',
             faq: 'Preguntas',
             contact: 'Contacto',
-            contact: 'Contacto',
+
             ctaQuote: 'Contáctanos',
         },
         hero: {
@@ -84,7 +84,7 @@ export const translations = {
             limits: 'Scope',
             faq: 'FAQ',
             contact: 'Contact',
-            contact: 'Contact',
+
             ctaQuote: 'Contact Us',
         },
         hero: {
