@@ -23,7 +23,7 @@ function App() {
           <Limits />
           <Faq />
         </main>
-        <FloatingContact />
+
         <Footer />
       </div>
     </LanguageProvider>

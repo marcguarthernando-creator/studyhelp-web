@@ -14,7 +14,7 @@ const Services: React.FC = () => {
     ];
 
     return (
-        <section id="services" className="py-20 bg-slate-50">
+        <section id="services" className="py-20 bg-blue-50/50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl font-extrabold text-slate-900 sm:text-4xl">
@@ -40,15 +40,17 @@ const Services: React.FC = () => {
                     <div className="text-center mb-10">
                         <h3 className="text-2xl font-bold text-slate-900">{t.services.areasTitle}</h3>
                     </div>
-                    <div className="flex flex-wrap justify-center gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                         {t.services.areas.map((area, index) => (
-                            <span
+                            <div
                                 key={index}
-                                className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-blue-50 text-blue-800 border border-blue-100"
+                                className="group flex items-center p-4 rounded-xl border border-slate-100 bg-slate-50 hover:bg-white hover:border-blue-100 hover:shadow-md transition-all duration-300"
                             >
-                                <Check size={16} className="mr-2 text-blue-600" />
-                                {area}
-                            </span>
+                                <div className="h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center mr-4 group-hover:bg-blue-600 transition-colors duration-300">
+                                    <Check size={20} className="text-blue-600 group-hover:text-white transition-colors duration-300" />
+                                </div>
+                                <span className="font-semibold text-slate-700 group-hover:text-slate-900">{area}</span>
+                            </div>
                         ))}
                     </div>
                 </div>

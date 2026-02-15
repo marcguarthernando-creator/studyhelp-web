@@ -7,19 +7,20 @@ export const translations = {
             limits: 'Qué Hacemos',
             faq: 'Preguntas',
             contact: 'Contacto',
-            ctaQuote: 'Pedir Presupuesto',
+            contact: 'Contacto',
+            ctaQuote: 'Contáctanos',
         },
         hero: {
-            title: 'Ayuda académica en trabajos de desarrollo para estudiantes',
-            subtitle: 'Soporte especializado para TFG, TFM, proyectos de FP y trabajos escritos. Enfoque en Humanidades, Educación, ADE y Ciencias Sociales.',
-            cta1: 'Hablar por WhatsApp',
+            title: 'Resolvemos tus trabajos de desarrollo al mejor precio',
+            subtitle: 'Tu solución integral para cualquier reto académico escrito. Desde prácticas hasta TFG/TFM en Humanidades, Educación, ADE y Sociales. Garantizamos calidad y originalidad.',
+            cta1: 'Contactar por Email',
             cta2: 'Ver Servicios',
             badge: 'Servicio en España 🇪🇸',
         },
         howItWorks: {
             title: 'Cómo funciona nuestra ayuda',
             steps: [
-                { title: 'Cuéntanos tu caso', desc: 'Escríbenos por WhatsApp o Email explicando qué necesitas, nivel de estudios y fecha de entrega.' },
+                { title: 'Cuéntanos tu caso', desc: 'Escríbenos por Email explicando qué necesitas, nivel de estudios y fecha de entrega.' },
                 { title: 'Presupuesto a medida', desc: 'Analizamos tu solicitud y te damos un precio cerrado sin sorpresas. Pago por adelantado.' },
                 { title: 'Elaboración', desc: 'Realizamos el trabajo de desarrollo o redacción siguiendo tus indicaciones.' },
                 { title: 'Entrega única', desc: 'Recibes el trabajo finalizado en la fecha acordada. Sin revisiones infinitas.' },
@@ -63,10 +64,12 @@ export const translations = {
                 { q: '¿El pago es por adelantado?', a: 'Sí, trabajamos con presupuesto cerrado y pago por adelantado para reservar el tiempo del especialista.' },
                 { q: '¿Qué pasa si es urgente?', a: 'Los encargos con menos de 72 horas de margen tienen un recargo por urgencia.' },
                 { q: '¿Hacéis trabajos de Ingeniería o Matemáticas?', a: 'No realizamos trabajos que requieran cálculos complejos, programación avanzada o ingeniería técnica. Nos especializamos en redacción y análisis.' },
+                { q: '¿Puedo contactar por WhatsApp o teléfono?', a: 'No. Para garantizar la calidad y el registro de todos los detalles del encargo, la comunicación es exclusivamente por Email.' },
             ]
         },
         contact: {
-            whatsappMessage: 'Hola, me gustaría recibir información sobre un encargo académico.\nTipo de estudios (bachillerato / FP / universidad):\nTipo de trabajo:\nFecha de entrega aproximada:',
+            emailSubject: 'Consulta sobre encargo académico',
+            emailBody: 'Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20un%20encargo%20acad%C3%A9mico.%0A%0ATipo%20de%20estudios%20(bachillerato%20%2F%20FP%20%2F%20universidad)%3A%0ATipo%20de%20trabajo%3A%0AFecha%20de%20entrega%20aproximada%3A',
         },
         footer: {
             rights: 'Todos los derechos reservados.',
@@ -81,19 +84,20 @@ export const translations = {
             limits: 'Scope',
             faq: 'FAQ',
             contact: 'Contact',
-            ctaQuote: 'Get a Quote',
+            contact: 'Contact',
+            ctaQuote: 'Contact Us',
         },
         hero: {
-            title: 'Academic help for development assignments in Spain',
-            subtitle: 'Specialized support for Thesis (TFG/TFM), vocational projects, and written papers. Focus on Humanities, Education, Business, and Social Sciences.',
-            cta1: 'Chat on WhatsApp',
+            title: 'We solve your development assignments at the best price',
+            subtitle: 'Your comprehensive solution for any written academic challenge. From assignments to Thesis in Humanities, Education, Business, and Social Sciences. We guarantee quality and originality.',
+            cta1: 'Contact via Email',
             cta2: 'See Services',
             badge: 'Service in Spain 🇪🇸',
         },
         howItWorks: {
             title: 'How it works',
             steps: [
-                { title: 'Tell us your needs', desc: 'Text us on WhatsApp or Email explaining your assignment, level, and deadline.' },
+                { title: 'Tell us your needs', desc: 'Text us on Email explaining your assignment, level, and deadline.' },
                 { title: 'Custom Quote', desc: 'We analyze your request and give you a fixed price. Upfront payment required.' },
                 { title: 'Development', desc: 'We carry out the writing or development work following your guidelines.' },
                 { title: 'Final Delivery', desc: 'You receive the completed work by the agreed date. Single delivery.' },
@@ -137,10 +141,12 @@ export const translations = {
                 { q: 'Is payment upfront?', a: 'Yes, we work with fixed quotes and upfront payment to reserve the specialist\'s time.' },
                 { q: 'What if it is urgent?', a: 'Assignments with less than 72 hours notice are subject to an urgency surcharge.' },
                 { q: 'Do you do Engineering or Math?', a: 'We do not do work requiring complex calculations, advanced programming, or technical engineering. We specialize in writing and analysis.' },
+                { q: 'Can I contact via WhatsApp or phone?', a: 'No. To ensure quality and a written record of all assignment details, communication is exclusively via Email.' },
             ]
         },
         contact: {
-            whatsappMessage: 'Hello, I would like information about an academic assignment.\nStudy level (High School / Vocational / University):\nType of work:\nDeadline:',
+            emailSubject: 'Academic Assignment Inquiry',
+            emailBody: 'Hello%2C%20I%20would%20like%20information%20about%20an%20academic%20assignment.%0A%0AStudy%20level%20(High%20School%20%2F%20Vocational%20%2F%20University)%3A%0AType%20of%20work%3A%0ADeadline%3A',
         },
         footer: {
             rights: 'All rights reserved.',
