@@ -7,8 +7,16 @@ const Navbar: React.FC = () => {
     const { language, setLanguage, t } = useLanguage();
     const [isOpen, setIsOpen] = useState(false);
 
+
     const toggleLanguage = () => {
         setLanguage(language === 'es' ? 'en' : 'es');
+    };
+
+    const scrollToSection = (id: string) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
     };
 
     const navLinks = [
