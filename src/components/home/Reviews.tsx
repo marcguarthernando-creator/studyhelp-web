@@ -5,6 +5,12 @@ import { Star, Quote } from 'lucide-react';
 const Reviews: React.FC = () => {
     const { t } = useLanguage();
 
+    interface Review {
+        name: string;
+        degree: string;
+        text: string;
+    }
+
     return (
         <section id="reviews" className="py-20 bg-white border-t border-slate-100">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -16,7 +22,7 @@ const Reviews: React.FC = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {t.reviews.items.map((review: any, index: number) => (
+                    {t.reviews.items.map((review: Review, index: number) => (
                         <div
                             key={index}
                             className="bg-slate-50 p-8 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 border border-slate-100 flex flex-col"
