@@ -19,8 +19,8 @@ const Footer: React.FC = () => {
                         <a href="#" className="hover:text-white transition-colors text-sm">
                             {t.footer.legal}
                         </a>
-                        <a href="mailto:contact@studyhelp.es" className="hover:text-white transition-colors text-sm">
-                            Email
+                        <a href="mailto:contacto.studyhelp@gmail.com" className="hover:text-white transition-colors text-sm">
+                            contacto.studyhelp@gmail.com
                         </a>
                     </div>
                 </div>

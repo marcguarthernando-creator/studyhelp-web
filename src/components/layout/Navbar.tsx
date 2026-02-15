@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
 
                         {/* CTA Button */}
                         <a
-                            href={`mailto:contact@studyhelp.es?subject=${t.contact.emailSubject}&body=${t.contact.emailBody}`}
+                            href={`mailto:contacto.studyhelp@gmail.com?subject=${t.contact.emailSubject}&body=${t.contact.emailBody}`}
                             className="bg-primary hover:bg-primary-light text-white px-5 py-2 rounded-full font-semibold transition-all shadow-md hover:shadow-lg"
                         >
                             {t.nav.ctaQuote}
@@ -91,7 +91,7 @@ const Navbar: React.FC = () => {
                         </a>
                     ))}
                     <a
-                        href={`mailto:contact@studyhelp.es?subject=${t.contact.emailSubject}&body=${t.contact.emailBody}`}
+                        href={`mailto:contacto.studyhelp@gmail.com?subject=${t.contact.emailSubject}&body=${t.contact.emailBody}`}
                         className="block w-full text-center mt-4 bg-primary text-white py-3 rounded-md font-semibold"
                         onClick={() => setIsOpen(false)}
                     >
