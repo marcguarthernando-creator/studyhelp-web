@@ -8,13 +8,13 @@ export default {
         extend: {
             colors: {
                 primary: {
-                    DEFAULT: '#1e3a8a', // vibrant deep blue
-                    light: '#3b82f6',
-                    dark: '#1e293b',
+                    DEFAULT: '#2563EB', // Brand Blue
+                    light: '#3B82F6',
+                    dark: '#1E40AF',
                 },
                 accent: {
-                    DEFAULT: '#0ea5e9', // bright sky blue
-                    hover: '#0284c7',
+                    DEFAULT: '#F97316', // Brand Orange
+                    hover: '#EA580C',
                 }
             },
             fontFamily: {

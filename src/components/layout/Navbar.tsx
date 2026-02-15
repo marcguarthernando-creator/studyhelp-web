@@ -20,12 +20,15 @@ const Navbar: React.FC = () => {
     ];
 
     return (
-        <nav className="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm border-b border-slate-100">
+        <nav className="fixed w-full z-50 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16 items-center">
                     {/* Logo */}
-                    <div className="flex-shrink-0 flex items-center">
-                        <span className="text-2xl font-bold text-primary">Study Help</span>
+                    <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer" onClick={() => scrollToSection('home')}>
+                        <img src="/logo.png" alt="Study Help Logo" className="h-8 w-auto" />
+                        <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">
+                            Study Help
+                        </span>
                     </div>
 
                     {/* Desktop Menu */}
@@ -44,7 +47,7 @@ const Navbar: React.FC = () => {
                         {/* CTA Button */}
                         <a
                             href={`mailto:contacto.studyhelp@gmail.com?subject=${t.contact.emailSubject}&body=${t.contact.emailBody}`}
-                            className="bg-primary hover:bg-primary-light text-white px-5 py-2 rounded-full font-semibold transition-all shadow-md hover:shadow-lg"
+                            className="bg-accent hover:bg-accent-hover text-white px-5 py-2 rounded-full font-semibold transition-all shadow-md hover:shadow-lg"
                         >
                             {t.nav.ctaQuote}
                         </a>
@@ -92,7 +95,7 @@ const Navbar: React.FC = () => {
                     ))}
                     <a
                         href={`mailto:contacto.studyhelp@gmail.com?subject=${t.contact.emailSubject}&body=${t.contact.emailBody}`}
-                        className="block w-full text-center mt-4 bg-primary text-white py-3 rounded-md font-semibold"
+                        className="block w-full text-center mt-4 bg-accent text-white py-3 rounded-md font-semibold"
                         onClick={() => setIsOpen(false)}
                     >
                         {t.nav.ctaQuote}

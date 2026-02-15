@@ -46,8 +46,8 @@ const Services: React.FC = () => {
                                 key={index}
                                 className="group flex items-center p-4 rounded-xl border border-slate-100 bg-slate-50 hover:bg-white hover:border-blue-100 hover:shadow-md transition-all duration-300"
                             >
-                                <div className="h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center mr-4 group-hover:bg-blue-600 transition-colors duration-300">
-                                    <Check size={20} className="text-blue-600 group-hover:text-white transition-colors duration-300" />
+                                <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center mr-4 group-hover:bg-primary transition-colors duration-300">
+                                    <Check size={20} className="text-primary group-hover:text-white transition-colors duration-300" />
                                 </div>
                                 <span className="font-semibold text-slate-700 group-hover:text-slate-900">{area}</span>
                             </div>
