@@ -21,9 +21,9 @@ function App() {
           <Hero />
           <HowItWorks />
           <Services />
-          <Reviews />
           <Limits />
           <Faq />
+          <Reviews />
         </main>
 
         <Footer />

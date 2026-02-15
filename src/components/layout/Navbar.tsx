@@ -23,9 +23,9 @@ const Navbar: React.FC = () => {
         { name: t.nav.home, href: '#home' },
         { name: t.nav.howItWorks, href: '#how-it-works' },
         { name: t.nav.services, href: '#services' },
-        { name: t.nav.reviews, href: '#reviews' },
         { name: t.nav.limits, href: '#limits' },
         { name: t.nav.faq, href: '#faq' },
+        { name: t.nav.reviews, href: '#reviews' },
     ];
 
     return (

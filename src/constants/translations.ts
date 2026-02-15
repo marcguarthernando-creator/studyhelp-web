@@ -2,10 +2,10 @@ export const translations = {
     es: {
         nav: {
             home: 'Inicio',
-            howItWorks: 'Cómo Funciona',
+            howItWorks: 'Cómo funciona',
             services: 'Servicios',
             reviews: 'Reseñas',
-            limits: 'Qué Hacemos',
+            limits: 'Qué hacemos',
             faq: 'Preguntas',
             contact: 'Contacto',
 
