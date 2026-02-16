@@ -13,7 +13,7 @@ export const translations = {
         },
         hero: {
             title: 'Resolvemos tus trabajos de desarrollo al mejor precio',
-            subtitle: 'Tu solución integral para cualquier reto académico escrito. Desde prácticas hasta TFG/TFM en Humanidades, Educación, ADE y Sociales. Garantizamos calidad y originalidad.',
+            subtitle: 'Tu solución integral para cualquier reto académico escrito. Realizamos trabajos de ESO, Bachillerato, FP y Universidad, incluyendo TFG y TFM. Garantizamos calidad y originalidad.',
             cta1: 'Contactar por Email',
             cta2: 'Ver Servicios',
             badge: 'Servicio en España 🇪🇸',
