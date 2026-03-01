@@ -6,7 +6,7 @@ import Footer from './components/layout/Footer';
 import Hero from './components/home/Hero';
 import HowItWorks from './components/home/HowItWorks';
 import Services from './components/home/Services';
-import AffiliateBanner from './components/home/AffiliateBanner';
+import AdBanner from './components/common/AdBanner';
 import Reviews from './components/home/Reviews';
 import Limits from './components/home/Limits';
 import Faq from './components/home/Faq';
@@ -22,7 +22,10 @@ function App() {
           <Hero />
           <HowItWorks />
           <Services />
-          <AffiliateBanner />
+          <AdBanner
+            dataAdClient="ca-pub-2743092061322536"
+            dataAdSlot="1078455244"
+          />
           <Limits />
           <Faq />
           <Reviews />
