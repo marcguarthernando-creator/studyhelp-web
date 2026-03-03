@@ -1,4 +1,5 @@
 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { LanguageProvider } from './context/LanguageContext';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
@@ -12,28 +13,40 @@ import Limits from './components/home/Limits';
 import Faq from './components/home/Faq';
 import SEO from './components/common/SEO';
 
+import LegalNotice from './components/legal/LegalNotice';
+import PrivacyPolicy from './components/legal/PrivacyPolicy';
+
+const Home = () => (
+  <main>
+    <Hero />
+    <HowItWorks />
+    <Services />
+    <AdBanner
+      dataAdClient="ca-pub-2743092061322536"
+      dataAdSlot="1078455244"
+    />
+    <Limits />
+    <Faq />
+    <Reviews />
+  </main>
+);
+
 function App() {
   return (
-    <LanguageProvider>
-      <SEO />
-      <div className="min-h-screen bg-slate-50 font-sans text-slate-900 scroll-smooth">
-        <Navbar />
-        <main>
-          <Hero />
-          <HowItWorks />
-          <Services />
-          <AdBanner
-            dataAdClient="ca-pub-2743092061322536"
-            dataAdSlot="1078455244"
-          />
-          <Limits />
-          <Faq />
-          <Reviews />
-        </main>
-
-        <Footer />
-      </div>
-    </LanguageProvider>
+    <Router>
+      <LanguageProvider>
+        <SEO />
+        <div className="min-h-screen bg-slate-50 font-sans text-slate-900 scroll-smooth">
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/aviso-legal" element={<LegalNotice />} />
+            <Route path="/politica-privacidad" element={<PrivacyPolicy />} />
+          </Routes>
+          <Footer />
+        </div>
+      </LanguageProvider>
+    </Router>
   );
 }
 
